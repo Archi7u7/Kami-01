@@ -1,0 +1,1245 @@
+[09Oct2024 21:05:59.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[09Oct2024 21:05:59.798] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[09Oct2024 21:06:00.932] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Kami-01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[09Oct2024 21:06:01.567] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kami-01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.0/fmlcore-1.19.2-43.4.0.jar is missing mods.toml file
+[09Oct2024 21:06:01.568] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kami-01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.0/javafmllanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[09Oct2024 21:06:01.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kami-01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.0/lowcodelanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[09Oct2024 21:06:01.571] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Kami-01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.0/mclanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[09Oct2024 21:06:01.885] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[09Oct2024 21:06:01.915] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[09Oct2024 21:06:05.130] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Oct2024 21:06:05.506] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[09Oct2024 21:06:05.511] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[09Oct2024 21:06:05.516] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[09Oct2024 21:06:05.564] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[09Oct2024 21:06:05.579] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Oct2024 21:06:05.587] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Oct2024 21:06:05.702] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Oct2024 21:06:05.775] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Oct2024 21:06:05.845] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
+[09Oct2024 21:06:06.597] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Oct2024 21:06:06.609] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Oct2024 21:06:07.057] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[09Oct2024 21:06:07.058] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[09Oct2024 21:06:07.112] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[09Oct2024 21:06:07.112] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found cucumber.mixins.json:RecipeEventJSMixin
+[09Oct2024 21:06:07.961] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[09Oct2024 21:06:11.912] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Oct2024 21:06:11.913] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Oct2024 21:06:12.288] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Oct2024 21:06:12.289] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Oct2024 21:06:12.407] [main/WARN] [mixin/]: @Final field f_31427_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[09Oct2024 21:06:12.408] [main/WARN] [mixin/]: @Final field f_31428_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[09Oct2024 21:06:13.665] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[09Oct2024 21:06:15.331] [main/INFO] [quark/]: TerraBlender not found, using injection method
+[09Oct2024 21:06:15.688] [main/WARN] [mixin/]: Method overwrite conflict for getHiddenEffect in werewolves.mixins.json:MobEffectInstanceAccessor, previously written by de.teamlapen.vampirism.mixin.MixinMobEffectInstance. Skipping method.
+[09Oct2024 21:06:16.618] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[09Oct2024 21:06:16.646] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[09Oct2024 21:06:16.650] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[09Oct2024 21:06:16.777] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option debugConsole, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.777] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option debugConsoleOmniscient, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option debugConsoleSuperDetailed, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.780] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option client_renderBlood, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.781] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option client_debugSensesVisual, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.782] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option soundAlerts, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.783] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option soundInvestigates, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[09Oct2024 21:06:16.827] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
+[09Oct2024 21:06:16.832] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
+[09Oct2024 21:06:16.838] [modloading-worker-0/INFO] [hordes/]: Config files are up to date, skipping data/asset generation
+[09Oct2024 21:06:17.515] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:miner_block]
+[09Oct2024 21:06:17.515] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:lumberjack_block]
+[09Oct2024 21:06:17.516] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:farmer_block]
+[09Oct2024 21:06:17.516] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:merchant_block]
+[09Oct2024 21:06:17.516] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:shepherd_block]
+[09Oct2024 21:06:17.517] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:fisherman_block]
+[09Oct2024 21:06:17.517] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:cattle_farmer_block]
+[09Oct2024 21:06:17.518] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:chicken_farmer_block]
+[09Oct2024 21:06:17.518] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:swineherd_block]
+[09Oct2024 21:06:17.520] [modloading-worker-0/INFO] [workers/]: Registering profession for miner with POI net.minecraftforge.registries.RegistryObject@84ce06a
+[09Oct2024 21:06:17.522] [modloading-worker-0/INFO] [workers/]: Registering profession for lumberjack with POI net.minecraftforge.registries.RegistryObject@2324e55
+[09Oct2024 21:06:17.522] [modloading-worker-0/INFO] [workers/]: Registering profession for farmer with POI net.minecraftforge.registries.RegistryObject@b5b6294e
+[09Oct2024 21:06:17.525] [modloading-worker-0/INFO] [workers/]: Registering profession for merchant with POI net.minecraftforge.registries.RegistryObject@e3fd43b3
+[09Oct2024 21:06:17.525] [modloading-worker-0/INFO] [workers/]: Registering profession for shepherd with POI net.minecraftforge.registries.RegistryObject@dc7f439a
+[09Oct2024 21:06:17.526] [modloading-worker-0/INFO] [workers/]: Registering profession for fisherman with POI net.minecraftforge.registries.RegistryObject@2b647820
+[09Oct2024 21:06:17.526] [modloading-worker-0/INFO] [workers/]: Registering profession for cattle_farmer with POI net.minecraftforge.registries.RegistryObject@2fbf1d36
+[09Oct2024 21:06:17.526] [modloading-worker-0/INFO] [workers/]: Registering profession for chicken_farmer with POI net.minecraftforge.registries.RegistryObject@8de71318
+[09Oct2024 21:06:17.527] [modloading-worker-0/INFO] [workers/]: Registering profession for swineherd with POI net.minecraftforge.registries.RegistryObject@5a68aad6
+[09Oct2024 21:06:17.982] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[09Oct2024 21:06:17.988] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.PearlerZombie
+[09Oct2024 21:06:17.991] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.FisherZombie
+[09Oct2024 21:06:17.998] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.DiggerZombie
+[09Oct2024 21:06:18.005] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchPotionThrowing
+[09Oct2024 21:06:18.007] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchFleeTarget
+[09Oct2024 21:06:18.017] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.ThirstyWitches
+[09Oct2024 21:06:18.030] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.DarkArtWitch
+[09Oct2024 21:06:18.033] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.feature.VillagerAttacking
+[09Oct2024 21:06:18.034] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.ThrowingWeb
+[09Oct2024 21:06:18.036] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.Misc
+[09Oct2024 21:06:18.041] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonShoot
+[09Oct2024 21:06:18.064] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonFleeTarget
+[09Oct2024 21:06:18.065] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: No module found with ID enhancedai:mobs
+[09Oct2024 21:06:18.071] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.feature.GhastShoot
+[09Oct2024 21:06:18.082] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.ItemDisruption
+[09Oct2024 21:06:18.087] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.GetOverHere
+[09Oct2024 21:06:18.089] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.feature.DrownedSwimming
+[09Oct2024 21:06:18.091] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.feature.CreeperSwell
+[09Oct2024 21:06:18.092] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[09Oct2024 21:06:18.097] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.feature.BlazeAttack
+[09Oct2024 21:06:18.107] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Targeting
+[09Oct2024 21:06:18.110] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Shielding
+[09Oct2024 21:06:18.115] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Movement
+[09Oct2024 21:06:18.123] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Base
+[09Oct2024 21:06:18.126] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AvoidExplosions
+[09Oct2024 21:06:18.131] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Attacking
+[09Oct2024 21:06:18.135] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AntiCheese
+[09Oct2024 21:06:18.140] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.feature.AnimalAttacking
+[09Oct2024 21:06:18.357] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod enchantinginfuser
+[09Oct2024 21:06:18.423] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[09Oct2024 21:06:18.469] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod mutantmonsters
+[09Oct2024 21:06:18.474] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[09Oct2024 21:06:18.476] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[09Oct2024 21:06:18.478] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[09Oct2024 21:06:18.481] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[09Oct2024 21:06:18.497] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[09Oct2024 21:06:18.503] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
+[09Oct2024 21:06:18.504] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[09Oct2024 21:06:18.527] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[09Oct2024 21:06:18.747] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:basic_attack
+[09Oct2024 21:06:18.748] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:air_attack
+[09Oct2024 21:06:18.749] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:roll
+[09Oct2024 21:06:18.750] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:step
+[09Oct2024 21:06:18.750] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:knockdown_wakeup
+[09Oct2024 21:06:18.757] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.12...
+[09Oct2024 21:06:18.788] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:guard
+[09Oct2024 21:06:18.797] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:parrying
+[09Oct2024 21:06:18.799] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:impact_guard
+[09Oct2024 21:06:18.803] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:berserker
+[09Oct2024 21:06:18.805] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:death_harvest
+[09Oct2024 21:06:18.818] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:emergency_escape
+[09Oct2024 21:06:18.823] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:endurance
+[09Oct2024 21:06:18.829] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:forbidden_strength
+[09Oct2024 21:06:18.837] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:hypervitality
+[09Oct2024 21:06:18.838] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.0, for MC 1.19.2 with MCP 20220805.130853
+[09Oct2024 21:06:18.838] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.0 Initialized
+[09Oct2024 21:06:18.838] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:stamina_pillager
+[09Oct2024 21:06:18.839] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:swordmaster
+[09Oct2024 21:06:18.840] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:technician
+[09Oct2024 21:06:18.841] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:sweeping_edge
+[09Oct2024 21:06:18.841] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:dancing_edge
+[09Oct2024 21:06:18.843] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:the_guillotine
+[09Oct2024 21:06:18.848] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:grasping_spire
+[09Oct2024 21:06:18.849] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:heartpiercer
+[09Oct2024 21:06:18.855] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[09Oct2024 21:06:18.857] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:steel_whirlwind
+[09Oct2024 21:06:18.862] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:battojutsu
+[09Oct2024 21:06:18.863] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[09Oct2024 21:06:18.865] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:battojutsu_passive
+[09Oct2024 21:06:18.868] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:rushing_tempo
+[09Oct2024 21:06:18.869] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:relentless_combo
+[09Oct2024 21:06:18.871] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[09Oct2024 21:06:18.874] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:liechtenauer
+[09Oct2024 21:06:18.876] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:sharp_stab
+[09Oct2024 21:06:18.879] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:eviscerate
+[09Oct2024 21:06:18.880] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[09Oct2024 21:06:18.886] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[09Oct2024 21:06:18.887] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[09Oct2024 21:06:18.926] [modloading-worker-0/INFO] [FTB Chunks/]: Mod [FTB XMod Compat] not detected. Install it if you want FTB Chunks integration with KubeJS, Game Stages, Waystones, FTB Ranks/Luckperms and/or Common Protection API
+[09Oct2024 21:06:18.975] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:blade_rush
+[09Oct2024 21:06:18.976] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:wrathful_lighting
+[09Oct2024 21:06:18.981] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:tsunami
+[09Oct2024 21:06:18.986] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:everlasting_allegiance
+[09Oct2024 21:06:18.989] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:meteor_slam
+[09Oct2024 21:06:18.995] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:revelation
+[09Oct2024 21:06:18.998] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:demolition_leap
+[09Oct2024 21:06:18.999] [modloading-worker-0/INFO] [epicfight/]: register skill epicfight:phantom_ascent
+[09Oct2024 21:06:19.242] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[09Oct2024 21:06:21.180] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VariantSelectorModule
+[09Oct2024 21:06:21.195] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[09Oct2024 21:06:21.195] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ClimateControlRemoverModule
+[09Oct2024 21:06:21.196] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[09Oct2024 21:06:21.198] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[09Oct2024 21:06:21.201] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[09Oct2024 21:06:21.202] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[09Oct2024 21:06:21.203] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VillagerRerollingReworkModule
+[09Oct2024 21:06:21.205] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[09Oct2024 21:06:21.206] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
+[09Oct2024 21:06:21.207] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[09Oct2024 21:06:21.208] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[09Oct2024 21:06:21.209] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
+[09Oct2024 21:06:21.213] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[09Oct2024 21:06:21.222] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[09Oct2024 21:06:21.224] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[09Oct2024 21:06:21.225] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[09Oct2024 21:06:21.227] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[09Oct2024 21:06:21.232] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[09Oct2024 21:06:21.234] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[09Oct2024 21:06:21.237] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[09Oct2024 21:06:21.238] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[09Oct2024 21:06:21.240] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[09Oct2024 21:06:21.242] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[09Oct2024 21:06:21.245] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[09Oct2024 21:06:21.247] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[09Oct2024 21:06:21.267] [modloading-worker-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Engineer's Decor GIT id #a561e61.
+[09Oct2024 21:06:21.279] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[09Oct2024 21:06:21.280] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[09Oct2024 21:06:21.282] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[09Oct2024 21:06:21.283] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[09Oct2024 21:06:21.286] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[09Oct2024 21:06:21.294] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[09Oct2024 21:06:21.297] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
+[09Oct2024 21:06:21.299] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[09Oct2024 21:06:21.301] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RainbowLampsModule
+[09Oct2024 21:06:21.304] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[09Oct2024 21:06:21.315] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[09Oct2024 21:06:21.317] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[09Oct2024 21:06:21.322] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[09Oct2024 21:06:21.327] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[09Oct2024 21:06:21.330] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
+[09Oct2024 21:06:21.333] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[09Oct2024 21:06:21.346] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[09Oct2024 21:06:21.350] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[09Oct2024 21:06:21.356] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[09Oct2024 21:06:21.358] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[09Oct2024 21:06:21.358] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[09Oct2024 21:06:21.360] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[09Oct2024 21:06:21.369] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[09Oct2024 21:06:21.371] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[09Oct2024 21:06:21.372] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[09Oct2024 21:06:21.376] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[09Oct2024 21:06:21.383] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
+[09Oct2024 21:06:21.388] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[09Oct2024 21:06:21.394] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[09Oct2024 21:06:21.399] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[09Oct2024 21:06:21.413] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[09Oct2024 21:06:21.414] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[09Oct2024 21:06:21.414] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[09Oct2024 21:06:21.415] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[09Oct2024 21:06:21.417] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[09Oct2024 21:06:21.420] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
+[09Oct2024 21:06:21.421] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
+[09Oct2024 21:06:21.422] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[09Oct2024 21:06:21.424] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[09Oct2024 21:06:21.429] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BucketsShowInhabitantsModule
+[09Oct2024 21:06:21.432] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[09Oct2024 21:06:21.435] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[09Oct2024 21:06:21.437] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[09Oct2024 21:06:21.441] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[09Oct2024 21:06:21.441] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[09Oct2024 21:06:21.445] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[09Oct2024 21:06:21.447] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
+[09Oct2024 21:06:21.448] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[09Oct2024 21:06:21.458] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
+[09Oct2024 21:06:21.462] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[09Oct2024 21:06:21.464] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[09Oct2024 21:06:21.465] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[09Oct2024 21:06:21.468] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[09Oct2024 21:06:21.472] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[09Oct2024 21:06:21.479] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[09Oct2024 21:06:21.492] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[09Oct2024 21:06:21.494] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[09Oct2024 21:06:21.494] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[09Oct2024 21:06:21.495] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[09Oct2024 21:06:21.506] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[09Oct2024 21:06:21.507] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[09Oct2024 21:06:21.510] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[09Oct2024 21:06:21.511] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[09Oct2024 21:06:21.512] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[09Oct2024 21:06:21.518] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
+[09Oct2024 21:06:21.529] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[09Oct2024 21:06:21.530] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[09Oct2024 21:06:21.534] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[09Oct2024 21:06:21.536] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[09Oct2024 21:06:21.538] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
+[09Oct2024 21:06:21.544] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[09Oct2024 21:06:21.545] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[09Oct2024 21:06:21.554] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[09Oct2024 21:06:21.555] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[09Oct2024 21:06:21.555] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
+[09Oct2024 21:06:21.556] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
+[09Oct2024 21:06:21.557] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[09Oct2024 21:06:21.562] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[09Oct2024 21:06:21.570] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[09Oct2024 21:06:21.572] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
+[09Oct2024 21:06:21.573] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
+[09Oct2024 21:06:21.578] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MapWashingModule
+[09Oct2024 21:06:21.579] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[09Oct2024 21:06:21.583] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[09Oct2024 21:06:21.586] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
+[09Oct2024 21:06:21.589] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
+[09Oct2024 21:06:21.596] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[09Oct2024 21:06:21.598] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[09Oct2024 21:06:21.598] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[09Oct2024 21:06:21.599] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[09Oct2024 21:06:21.600] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[09Oct2024 21:06:21.611] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
+[09Oct2024 21:06:21.612] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[09Oct2024 21:06:21.613] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[09Oct2024 21:06:21.614] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
+[09Oct2024 21:06:21.615] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[09Oct2024 21:06:21.622] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[09Oct2024 21:06:21.626] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[09Oct2024 21:06:21.626] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[09Oct2024 21:06:21.635] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DiamondRepairModule
+[09Oct2024 21:06:21.638] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
+[09Oct2024 21:06:21.639] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[09Oct2024 21:06:21.640] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[09Oct2024 21:06:21.641] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[09Oct2024 21:06:21.643] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
+[09Oct2024 21:06:21.645] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongesBetterModule
+[09Oct2024 21:06:21.648] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[09Oct2024 21:06:21.657] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[09Oct2024 21:06:21.659] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[09Oct2024 21:06:21.660] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[09Oct2024 21:06:21.661] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[09Oct2024 21:06:21.665] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[09Oct2024 21:06:21.666] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[09Oct2024 21:06:21.672] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[09Oct2024 21:06:21.674] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[09Oct2024 21:06:21.681] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[09Oct2024 21:06:21.683] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[09Oct2024 21:06:21.684] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[09Oct2024 21:06:21.686] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[09Oct2024 21:06:21.687] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[09Oct2024 21:06:21.690] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[09Oct2024 21:06:21.697] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[09Oct2024 21:06:21.701] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[09Oct2024 21:06:21.702] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[09Oct2024 21:06:21.704] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[09Oct2024 21:06:21.706] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[09Oct2024 21:06:21.708] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
+[09Oct2024 21:06:21.723] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[09Oct2024 21:06:21.725] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[09Oct2024 21:06:21.727] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[09Oct2024 21:06:21.733] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[09Oct2024 21:06:21.737] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[09Oct2024 21:06:21.745] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[09Oct2024 21:06:21.749] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[09Oct2024 21:06:21.762] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[09Oct2024 21:06:21.768] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[09Oct2024 21:06:21.776] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[09Oct2024 21:06:21.784] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[09Oct2024 21:06:21.788] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[09Oct2024 21:06:21.790] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[09Oct2024 21:06:21.794] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[09Oct2024 21:06:21.984] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[09Oct2024 21:06:21.985] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[09Oct2024 21:06:21.985] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[09Oct2024 21:06:21.985] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[09Oct2024 21:06:21.987] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[09Oct2024 21:06:21.987] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[09Oct2024 21:06:21.987] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[09Oct2024 21:06:21.987] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[09Oct2024 21:06:21.987] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[09Oct2024 21:06:21.987] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[09Oct2024 21:06:21.988] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[09Oct2024 21:06:21.988] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[09Oct2024 21:06:21.989] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[09Oct2024 21:06:21.989] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[09Oct2024 21:06:22.001] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
+[09Oct2024 21:06:22.001] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[09Oct2024 21:06:22.001] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[09Oct2024 21:06:22.002] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[09Oct2024 21:06:22.002] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[09Oct2024 21:06:22.002] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[09Oct2024 21:06:22.002] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[09Oct2024 21:06:22.002] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[09Oct2024 21:06:22.003] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[09Oct2024 21:06:22.003] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[09Oct2024 21:06:22.003] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[09Oct2024 21:06:22.003] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[09Oct2024 21:06:22.003] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[09Oct2024 21:06:22.003] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[09Oct2024 21:06:22.006] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[09Oct2024 21:06:22.006] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[09Oct2024 21:06:22.007] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[09Oct2024 21:06:22.007] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[09Oct2024 21:06:22.007] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[09Oct2024 21:06:22.007] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
+[09Oct2024 21:06:22.007] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[09Oct2024 21:06:22.008] [modloading-worker-0/INFO] [quark/]: Loading Module Rainbow Lamps
+[09Oct2024 21:06:22.008] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[09Oct2024 21:06:22.008] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[09Oct2024 21:06:22.008] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[09Oct2024 21:06:22.008] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[09Oct2024 21:06:22.009] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
+[09Oct2024 21:06:22.017] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
+[09Oct2024 21:06:22.017] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[09Oct2024 21:06:22.017] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
+[09Oct2024 21:06:22.017] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[09Oct2024 21:06:22.018] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[09Oct2024 21:06:22.018] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[09Oct2024 21:06:22.018] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[09Oct2024 21:06:22.018] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[09Oct2024 21:06:22.019] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
+[09Oct2024 21:06:22.021] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[09Oct2024 21:06:22.021] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[09Oct2024 21:06:22.021] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[09Oct2024 21:06:22.022] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[09Oct2024 21:06:22.022] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[09Oct2024 21:06:22.022] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[09Oct2024 21:06:22.022] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[09Oct2024 21:06:22.024] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[09Oct2024 21:06:22.026] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[09Oct2024 21:06:22.026] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[09Oct2024 21:06:22.028] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[09Oct2024 21:06:22.094] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[09Oct2024 21:06:22.095] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[09Oct2024 21:06:22.095] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
+[09Oct2024 21:06:22.095] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[09Oct2024 21:06:22.095] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[09Oct2024 21:06:22.098] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[09Oct2024 21:06:22.098] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[09Oct2024 21:06:22.099] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[09Oct2024 21:06:22.101] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[09Oct2024 21:06:22.101] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
+[09Oct2024 21:06:22.102] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[09Oct2024 21:06:22.103] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[09Oct2024 21:06:22.104] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[09Oct2024 21:06:22.105] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[09Oct2024 21:06:22.105] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
+[09Oct2024 21:06:22.106] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
+[09Oct2024 21:06:22.106] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[09Oct2024 21:06:22.107] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[09Oct2024 21:06:22.108] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[09Oct2024 21:06:22.108] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
+[09Oct2024 21:06:22.109] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
+[09Oct2024 21:06:22.112] [modloading-worker-0/INFO] [quark/]: Loading Module Map Washing
+[09Oct2024 21:06:22.112] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[09Oct2024 21:06:22.113] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[09Oct2024 21:06:22.118] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
+[09Oct2024 21:06:22.118] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
+[09Oct2024 21:06:22.119] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[09Oct2024 21:06:22.120] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[09Oct2024 21:06:22.120] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[09Oct2024 21:06:22.121] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[09Oct2024 21:06:22.122] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[09Oct2024 21:06:22.125] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
+[09Oct2024 21:06:22.125] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[09Oct2024 21:06:22.126] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[09Oct2024 21:06:22.126] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
+[09Oct2024 21:06:22.127] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[09Oct2024 21:06:22.129] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[09Oct2024 21:06:22.130] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[09Oct2024 21:06:22.132] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[09Oct2024 21:06:22.133] [modloading-worker-0/INFO] [quark/]: Loading Module Diamond Repair
+[09Oct2024 21:06:22.133] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
+[09Oct2024 21:06:22.134] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[09Oct2024 21:06:22.135] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[09Oct2024 21:06:22.146] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[09Oct2024 21:06:22.146] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
+[09Oct2024 21:06:22.147] [modloading-worker-0/INFO] [quark/]: Loading Module Sponges Better
+[09Oct2024 21:06:22.147] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[09Oct2024 21:06:22.148] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[09Oct2024 21:06:22.149] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[09Oct2024 21:06:22.149] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
+[09Oct2024 21:06:22.150] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[09Oct2024 21:06:22.150] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[09Oct2024 21:06:22.151] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[09Oct2024 21:06:22.151] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[09Oct2024 21:06:22.151] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[09Oct2024 21:06:22.152] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
+[09Oct2024 21:06:22.153] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[09Oct2024 21:06:22.154] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[09Oct2024 21:06:22.154] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[09Oct2024 21:06:22.154] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[09Oct2024 21:06:22.160] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[09Oct2024 21:06:22.160] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[09Oct2024 21:06:22.160] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[09Oct2024 21:06:22.160] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[09Oct2024 21:06:22.160] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[09Oct2024 21:06:22.170] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[09Oct2024 21:06:22.171] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[09Oct2024 21:06:22.178] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[09Oct2024 21:06:22.182] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[09Oct2024 21:06:22.182] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[09Oct2024 21:06:22.189] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[09Oct2024 21:06:22.195] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[09Oct2024 21:06:22.195] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
+[09Oct2024 21:06:22.195] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[09Oct2024 21:06:22.196] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[09Oct2024 21:06:22.196] [modloading-worker-0/INFO] [quark/]: Loading Module Buckets Show Inhabitants
+[09Oct2024 21:06:22.197] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[09Oct2024 21:06:22.197] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[09Oct2024 21:06:22.198] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[09Oct2024 21:06:22.198] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[09Oct2024 21:06:22.198] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[09Oct2024 21:06:22.199] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
+[09Oct2024 21:06:22.199] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[09Oct2024 21:06:22.199] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[09Oct2024 21:06:22.200] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
+[09Oct2024 21:06:22.200] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[09Oct2024 21:06:22.200] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Selector
+[09Oct2024 21:06:22.201] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[09Oct2024 21:06:22.201] [modloading-worker-0/INFO] [quark/]: Loading Module Climate Control Remover
+[09Oct2024 21:06:22.201] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[09Oct2024 21:06:22.202] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[09Oct2024 21:06:22.202] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[09Oct2024 21:06:22.202] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[09Oct2024 21:06:22.203] [modloading-worker-0/INFO] [quark/]: Loading Module Villager Rerolling Rework
+[09Oct2024 21:06:22.203] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[09Oct2024 21:06:22.203] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
+[09Oct2024 21:06:22.203] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[09Oct2024 21:06:22.204] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[09Oct2024 21:06:22.204] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[09Oct2024 21:06:22.205] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[09Oct2024 21:06:22.206] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[09Oct2024 21:06:22.206] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[09Oct2024 21:06:22.206] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[09Oct2024 21:06:22.682] [main/INFO] [quark/]: Dispatching Module Step REGISTER
+[09Oct2024 21:06:23.101] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[09Oct2024 21:06:27.796] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/structure_processor / minecraft:capped]' to registry
+[09Oct2024 21:06:27.796] [main/ERROR] [net.minecraft.Util/]: Adding duplicate value 'com.min01.archaeology.init.ArchaeologyStructureProcessorType$$Lambda/0x0000763e360218e0@17d737d6' to registry
+[09Oct2024 21:06:29.073] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[09Oct2024 21:06:29.858] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.EvolvedInfected.Stalker
+[09Oct2024 21:06:29.860] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Organoids.Mound from class com.Harbinger.Spore.Sentities.Organoids.Proto
+[09Oct2024 21:06:29.862] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
+[09Oct2024 21:06:29.982] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[09Oct2024 21:06:29.983] [Thread-0/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[09Oct2024 21:06:29.984] [Thread-0/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[09Oct2024 21:06:30.013] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-common.toml
+[09Oct2024 21:06:30.013] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-common.toml
+[09Oct2024 21:06:30.022] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[09Oct2024 21:06:30.105] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[09Oct2024 21:06:30.105] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[09Oct2024 21:06:30.202] [modloading-worker-0/INFO] [net.ggwpgaming.goldenfood.GoldenFood/]: HELLO FROM COMMON SETUP
+[09Oct2024 21:06:30.202] [modloading-worker-0/INFO] [net.ggwpgaming.goldenfood.GoldenFood/]: DIRT BLOCK >> minecraft:dirt
+[09Oct2024 21:06:30.214] [modloading-worker-0/INFO] [net.anvian.bedrockplus.BedrockPlusMod/]: Hello from BedrockPlus!
+[09Oct2024 21:06:30.227] [modloading-worker-0/INFO] [workers/]: Villager Workers Messages registered
+[09Oct2024 21:06:30.273] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[09Oct2024 21:06:30.307] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[09Oct2024 21:06:30.316] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[09Oct2024 21:06:30.324] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[09Oct2024 21:06:30.423] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[09Oct2024 21:06:30.425] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[09Oct2024 21:06:30.431] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[09Oct2024 21:06:30.445] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[09Oct2024 21:06:30.474] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[09Oct2024 21:06:30.474] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[09Oct2024 21:06:30.482] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading/]: betterchunkloading mod initialized
+[09Oct2024 21:06:30.523] [Thread-5/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at http://maxanier.de/projects/vampirism/versions_integrations.json
+[09Oct2024 21:06:30.643] [Thread-6/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[09Oct2024 21:06:30.660] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[09Oct2024 21:06:30.686] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
+[09Oct2024 21:06:30.967] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@791d3a1]
+[09Oct2024 21:06:30.972] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.12+6240-87f4ae1) is loaded
+[09Oct2024 21:06:31.058] [Thread-5/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Did not find a version of type RELEASE for 1.19.2 (null)
+[09Oct2024 21:06:31.211] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[09Oct2024 21:06:31.380] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 0 to biped/living/idle
+[09Oct2024 21:06:31.381] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 1 to biped/living/walk
+[09Oct2024 21:06:31.382] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 2 to biped/living/fly
+[09Oct2024 21:06:31.382] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 3 to biped/living/creative_idle
+[09Oct2024 21:06:31.383] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 4 to biped/living/creative_fly
+[09Oct2024 21:06:31.394] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 5 to biped/living/creative_fly_backward
+[09Oct2024 21:06:31.394] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 6 to 
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 7 to biped/living/hold_crossbow
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 8 to biped/living/hold_map_twohand
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 9 to biped/living/hold_map_offhand
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 10 to biped/living/hold_map_mainhand
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 11 to biped/living/hold_map_twohand_move
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 12 to biped/living/hold_map_offhand_move
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 13 to biped/living/hold_map_mainhand_move
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 14 to biped/living/run
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 15 to biped/living/sneak
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 16 to biped/living/swim
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 17 to biped/living/float
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 18 to biped/living/kneel
+[09Oct2024 21:06:31.395] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 19 to biped/living/fall
+[09Oct2024 21:06:31.396] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 20 to biped/living/mount
+[09Oct2024 21:06:31.396] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 21 to biped/living/sit
+[09Oct2024 21:06:31.396] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 22 to biped/living/dig
+[09Oct2024 21:06:31.396] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 23 to biped/living/dig_offhand
+[09Oct2024 21:06:31.405] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 24 to 
+[09Oct2024 21:06:31.405] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 25 to biped/combat/bow_aim_mid
+[09Oct2024 21:06:31.406] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 26 to biped/combat/bow_shot_mid
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 27 to biped/living/drink
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 28 to biped/living/drink
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 29 to biped/living/drink_offhand
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 30 to biped/living/eat
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 31 to biped/living/eat
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 32 to biped/living/eat_offhand
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 33 to biped/living/spyglass
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 34 to biped/living/spyglass
+[09Oct2024 21:06:31.408] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 35 to biped/living/spyglass_offhand
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 36 to biped/combat/crossbow_aim_mid
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 37 to biped/combat/crossbow_shot_mid
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 38 to biped/combat/crossbow_reload
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 39 to biped/living/jump
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 40 to biped/living/run_spear
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 41 to biped/living/shield
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 42 to biped/living/shield
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 43 to biped/living/shield_mirror
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 44 to biped/living/hold_greatsword
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 45 to biped/living/hold_uchigatana_sheath
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 46 to biped/living/hold_uchigatana
+[09Oct2024 21:06:31.409] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 47 to biped/living/hold_tachi
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 48 to biped/living/hold_longsword
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 49 to biped/living/hold_spear
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 50 to biped/living/hold_dual
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 51 to biped/living/hold_liechtenauer
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 52 to biped/living/walk_greatsword
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 53 to biped/living/walk_spear
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 54 to biped/living/walk_uchigatana_sheath
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 55 to biped/living/walk_uchigatana
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 56 to biped/living/walk_twohand
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 57 to biped/living/walk_longsword
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 58 to biped/living/walk_liechtenauer
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 59 to biped/living/run_greatsword
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 60 to biped/living/run_uchigatana
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 61 to biped/living/run_uchigatana_sheath
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 62 to biped/living/run_dual
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 63 to biped/living/run_longsword
+[09Oct2024 21:06:31.410] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 64 to biped/living/uchigatana_scrap
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 65 to biped/living/liechtenauer_ready
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 66 to biped/combat/hit_shield
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 67 to biped/combat/hit_shield
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 68 to biped/combat/hit_shield_mirror
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 69 to biped/living/climb
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 70 to biped/living/sleep
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 71 to biped/combat/javelin_aim_mid
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 72 to biped/combat/javelin_throw_mid
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 73 to off_highest
+[09Oct2024 21:06:31.412] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 74 to off_middle
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 75 to zombie/idle
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 76 to zombie/walk
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 77 to zombie/chase
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 78 to creeper/idle
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 79 to creeper/walk
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 80 to enderman/idle
+[09Oct2024 21:06:31.413] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 81 to enderman/walk
+[09Oct2024 21:06:31.421] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 82 to enderman/rage_idle
+[09Oct2024 21:06:31.421] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 83 to enderman/rage_walk
+[09Oct2024 21:06:31.421] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 84 to wither_skeleton/walk
+[09Oct2024 21:06:31.421] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 85 to wither_skeleton/chase
+[09Oct2024 21:06:31.421] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 86 to wither_skeleton/idle
+[09Oct2024 21:06:31.422] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 87 to wither_skeleton/special_spawn
+[09Oct2024 21:06:31.422] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 88 to spider/idle
+[09Oct2024 21:06:31.422] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 89 to spider/crawl
+[09Oct2024 21:06:31.422] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 90 to iron_golem/idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 91 to iron_golem/walk
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 92 to hoglin/idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 93 to hoglin/walk
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 94 to illager/idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 95 to illager/walk
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 96 to illager/idle_aggressive
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 97 to illager/chase
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 98 to illager/spellcast
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 99 to ravager/idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 100 to ravager/walk
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 101 to vex/idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 102 to vex/flip
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 103 to piglin/idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 104 to piglin/walk
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 105 to piglin/zombified_idle
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 106 to piglin/zombified_walk
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 107 to piglin/zombified_chase
+[09Oct2024 21:06:31.423] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 108 to piglin/celebrate1
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 109 to piglin/celebrate2
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 110 to piglin/celebrate3
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 111 to piglin/admire
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 112 to wither/idle
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 113 to biped/skill/guard_spear
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 114 to biped/skill/guard_sword
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 115 to biped/skill/guard_dualsword
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 116 to biped/skill/guard_greatsword
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 117 to biped/skill/guard_uchigatana
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 118 to biped/skill/guard_longsword
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 119 to biped/skill/steel_whirlwind_charging
+[09Oct2024 21:06:31.424] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 120 to biped/skill/roll_forward
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 121 to biped/skill/roll_backward
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 122 to biped/skill/step_forward
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 123 to biped/skill/step_backward
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 124 to biped/skill/step_left
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 125 to biped/skill/step_right
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 126 to biped/skill/knockdown_wakeup_left
+[09Oct2024 21:06:31.425] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 127 to biped/skill/knockdown_wakeup_right
+[09Oct2024 21:06:31.429] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 128 to biped/skill/demolition_leap_charge
+[09Oct2024 21:06:31.429] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 129 to biped/skill/demolition_leap
+[09Oct2024 21:06:31.429] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 130 to biped/skill/phantom_ascent_forward
+[09Oct2024 21:06:31.430] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 131 to biped/skill/phantom_ascent_backward
+[09Oct2024 21:06:31.433] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 132 to biped/combat/fist_auto1
+[09Oct2024 21:06:31.440] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 133 to biped/combat/fist_auto2
+[09Oct2024 21:06:31.440] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 134 to biped/combat/fist_auto3
+[09Oct2024 21:06:31.440] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 135 to biped/combat/fist_dash
+[09Oct2024 21:06:31.445] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 136 to biped/combat/sword_auto1
+[09Oct2024 21:06:31.445] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 137 to biped/combat/sword_auto2
+[09Oct2024 21:06:31.445] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 138 to biped/combat/sword_auto3
+[09Oct2024 21:06:31.445] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 139 to biped/combat/sword_dash
+[09Oct2024 21:06:31.445] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 140 to biped/combat/greatsword_auto1
+[09Oct2024 21:06:31.445] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 141 to biped/combat/greatsword_auto2
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 142 to biped/combat/greatsword_dash
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 143 to biped/combat/spear_onehand_auto
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 144 to biped/combat/spear_twohand_auto1
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 145 to biped/combat/spear_twohand_auto2
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 146 to biped/combat/spear_dash
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 147 to 136
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 148 to biped/combat/sword_auto4
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 149 to biped/combat/tool_dash
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 150 to biped/combat/axe_dash
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 151 to biped/combat/sword_dual_auto1
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 152 to biped/combat/sword_dual_auto2
+[09Oct2024 21:06:31.446] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 153 to biped/combat/sword_dual_auto3
+[09Oct2024 21:06:31.447] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 154 to biped/combat/sword_dual_dash
+[09Oct2024 21:06:31.447] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 155 to biped/combat/uchigatana_auto1
+[09Oct2024 21:06:31.447] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 156 to biped/combat/uchigatana_auto2
+[09Oct2024 21:06:31.447] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 157 to biped/combat/uchigatana_auto3
+[09Oct2024 21:06:31.447] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 158 to biped/combat/uchigatana_dash
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 159 to biped/combat/uchigatana_sheath_auto
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 160 to biped/combat/uchigatana_sheath_dash
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 161 to biped/combat/axe_auto1
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 162 to biped/combat/axe_auto2
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 163 to biped/combat/longsword_auto1
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 164 to biped/combat/longsword_auto2
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 165 to biped/combat/longsword_auto3
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 166 to biped/combat/longsword_dash
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 167 to biped/combat/longsword_liechtenauer_auto1
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 168 to biped/combat/longsword_liechtenauer_auto2
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 169 to biped/combat/longsword_liechtenauer_auto3
+[09Oct2024 21:06:31.455] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 170 to biped/combat/tachi_auto1
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 171 to biped/combat/tachi_auto2
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 172 to biped/combat/tachi_auto3
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 173 to biped/combat/tachi_dash
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 174 to biped/combat/dagger_auto1
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 175 to biped/combat/dagger_auto2
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 176 to biped/combat/dagger_auto3
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 177 to biped/combat/dagger_dash
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 178 to biped/combat/dagger_dual_auto1
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 179 to biped/combat/dagger_dual_auto2
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 180 to biped/combat/dagger_dual_auto3
+[09Oct2024 21:06:31.456] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 181 to biped/combat/dagger_dual_auto4
+[09Oct2024 21:06:31.457] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 182 to biped/combat/dagger_dual_dash
+[09Oct2024 21:06:31.457] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 183 to biped/combat/trident_auto1
+[09Oct2024 21:06:31.457] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 184 to biped/combat/trident_auto2
+[09Oct2024 21:06:31.457] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 185 to biped/combat/trident_auto3
+[09Oct2024 21:06:31.461] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 186 to biped/combat/sword_airslash
+[09Oct2024 21:06:31.461] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 187 to biped/combat/sword_dual_airslash
+[09Oct2024 21:06:31.461] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 188 to biped/combat/uchigatana_airslash
+[09Oct2024 21:06:31.461] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 189 to biped/combat/uchigatana_sheath_airslash
+[09Oct2024 21:06:31.461] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 190 to biped/combat/spear_onehand_airslash
+[09Oct2024 21:06:31.461] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 191 to biped/combat/spear_twohand_airslash
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 192 to biped/combat/longsword_airslash
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 193 to biped/combat/greatsword_airslash
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 194 to biped/combat/fist_airslash
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 195 to biped/combat/dagger_airslash
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 196 to 187
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 197 to biped/combat/axe_airslash
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 198 to biped/combat/sword_mount_attack
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 199 to biped/combat/spear_mount_attack
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 200 to biped/combat/mob_onehand1
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 201 to biped/combat/mob_onehand2
+[09Oct2024 21:06:31.462] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 202 to biped/combat/mob_greatsword1
+[09Oct2024 21:06:31.463] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 203 to biped/combat/mob_tachi_special
+[09Oct2024 21:06:31.463] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 204 to biped/combat/mob_spear_onehand
+[09Oct2024 21:06:31.463] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 205 to biped/combat/mob_spear_twohand1
+[09Oct2024 21:06:31.463] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 206 to biped/combat/mob_spear_twohand2
+[09Oct2024 21:06:31.463] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 207 to biped/combat/mob_spear_twohand3
+[09Oct2024 21:06:31.463] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 208 to biped/combat/mob_sword_dual1
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 209 to biped/combat/mob_sword_dual2
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 210 to biped/combat/mob_sword_dual3
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 211 to biped/combat/mob_longsword1
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 212 to biped/combat/mob_longsword2
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 213 to biped/combat/mob_uchigatana1
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 214 to biped/combat/mob_uchigatana2
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 215 to biped/combat/mob_uchigatana3
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 216 to biped/combat/mob_dagger_onehand1
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 217 to biped/combat/mob_dagger_onehand2
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 218 to biped/combat/mob_dagger_onehand3
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 219 to biped/combat/mob_dagger_twohand1
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 220 to biped/combat/mob_dagger_twohand2
+[09Oct2024 21:06:31.464] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 221 to biped/combat/mob_throw
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 222 to biped/skill/guard_sword_hit
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 223 to biped/skill/guard_sword_hit_active1
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 224 to biped/skill/guard_sword_hit_active2
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 225 to biped/skill/guard_sword_hit_active3
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 226 to biped/skill/guard_longsword_hit_active1
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 227 to biped/skill/guard_longsword_hit_active2
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 228 to biped/skill/guard_dualsword_hit
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 229 to biped/skill/guard_break1
+[09Oct2024 21:06:31.465] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 230 to biped/skill/guard_break2
+[09Oct2024 21:06:31.466] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 231 to biped/skill/guard_longsword_hit
+[09Oct2024 21:06:31.466] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 232 to biped/skill/guard_spear_hit
+[09Oct2024 21:06:31.466] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 233 to biped/skill/guard_greatsword_hit
+[09Oct2024 21:06:31.466] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 234 to biped/skill/guard_uchigatana_hit
+[09Oct2024 21:06:31.466] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 235 to biped/skill/greatsword_slam
+[09Oct2024 21:06:31.466] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 236 to biped/skill/revelation_normal
+[09Oct2024 21:06:31.467] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 237 to biped/skill/revelation_twohand
+[09Oct2024 21:06:31.467] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 238 to biped/combat/hit_short
+[09Oct2024 21:06:31.467] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 239 to biped/combat/hit_long
+[09Oct2024 21:06:31.467] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 240 to biped/combat/hit_on_mount
+[09Oct2024 21:06:31.467] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 241 to biped/living/landing
+[09Oct2024 21:06:31.473] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 242 to biped/combat/knockdown
+[09Oct2024 21:06:31.473] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 243 to biped/living/death
+[09Oct2024 21:06:31.473] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 244 to creeper/hit_short
+[09Oct2024 21:06:31.473] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 245 to creeper/hit_long
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 246 to creeper/death
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 247 to enderman/hit_short
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 248 to enderman/hit_long
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 249 to enderman/neutralized
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 250 to enderman/convert_rage
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 251 to enderman/tp_kick1
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 252 to enderman/tp_kick2
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 253 to enderman/rush_kick
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 254 to enderman/jump_kick
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 255 to enderman/knee
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 256 to enderman/kick_twice
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 257 to enderman/grasp
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 258 to enderman/death
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 259 to enderman/teleport
+[09Oct2024 21:06:31.474] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 260 to dragon/idle
+[09Oct2024 21:06:31.476] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 261 to dragon/walk
+[09Oct2024 21:06:31.476] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 262 to dragon/fly
+[09Oct2024 21:06:31.476] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 263 to dragon/death
+[09Oct2024 21:06:31.476] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 264 to dragon/ground_to_fly
+[09Oct2024 21:06:31.477] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 265 to dragon/fly_to_ground
+[09Oct2024 21:06:31.489] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 266 to dragon/attack1
+[09Oct2024 21:06:31.490] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 267 to dragon/attack2
+[09Oct2024 21:06:31.490] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 268 to dragon/attack3
+[09Oct2024 21:06:31.490] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 269 to dragon/attack4
+[09Oct2024 21:06:31.490] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 270 to dragon/attack4_recovery
+[09Oct2024 21:06:31.490] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 271 to dragon/fireball
+[09Oct2024 21:06:31.491] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 272 to dragon/airstrike
+[09Oct2024 21:06:31.491] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 273 to dragon/backjump_prepare
+[09Oct2024 21:06:31.491] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 274 to dragon/backjump_move
+[09Oct2024 21:06:31.491] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 275 to dragon/backjump_recovery
+[09Oct2024 21:06:31.491] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 276 to dragon/crystal_link
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 277 to dragon/neutralized
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 278 to dragon/neutralized_recovery
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 279 to spider/attack
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 280 to spider/jump_attack
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 281 to spider/hit
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 282 to spider/neutralized
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 283 to spider/death
+[09Oct2024 21:06:31.492] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 284 to iron_golem/attack1
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 285 to iron_golem/attack2
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 286 to iron_golem/attack3
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 287 to iron_golem/attack4
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 288 to iron_golem/death
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 289 to illager/swing_axe1
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 290 to illager/swing_axe2
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 291 to illager/swing_axe3
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 292 to piglin/death
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 293 to hoglin/death
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 294 to hoglin/attack
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 295 to ravager/death
+[09Oct2024 21:06:31.493] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 296 to ravager/groggy
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 297 to ravager/attack1
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 298 to ravager/attack2
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 299 to ravager/attack3
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 300 to vex/hit
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 301 to vex/death
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 302 to vex/charge
+[09Oct2024 21:06:31.494] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 303 to vex/neutralized
+[09Oct2024 21:06:31.495] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 304 to witch/drink
+[09Oct2024 21:06:31.495] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 305 to wither_skeleton/sword_attack1
+[09Oct2024 21:06:31.495] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 306 to wither_skeleton/sword_attack2
+[09Oct2024 21:06:31.495] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 307 to wither_skeleton/sword_attack3
+[09Oct2024 21:06:31.495] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 308 to wither/rush
+[09Oct2024 21:06:31.496] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 309 to wither/death
+[09Oct2024 21:06:31.496] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 310 to wither/neutralized
+[09Oct2024 21:06:31.496] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 311 to wither/spell_wither_armor
+[09Oct2024 21:06:31.496] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 312 to wither/charging_blocked
+[09Oct2024 21:06:31.497] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 313 to wither/ghost_stand
+[09Oct2024 21:06:31.497] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 314 to wither/swirl
+[09Oct2024 21:06:31.497] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 315 to wither/laser
+[09Oct2024 21:06:31.497] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 316 to wither/backflip
+[09Oct2024 21:06:31.497] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 317 to zombie/attack1
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 318 to zombie/attack2
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 319 to zombie/attack3
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 320 to biped/skill/sweeping_edge
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 321 to biped/skill/dancing_edge
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 322 to biped/skill/the_guillotine
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 323 to biped/skill/heartpiercer
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 324 to 146
+[09Oct2024 21:06:31.498] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 325 to biped/skill/grasping_spire_second
+[09Oct2024 21:06:31.499] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 326 to biped/skill/steel_whirlwind
+[09Oct2024 21:06:31.499] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 327 to biped/skill/battojutsu
+[09Oct2024 21:06:31.499] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 328 to biped/skill/battojutsu_dash
+[09Oct2024 21:06:31.499] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 329 to biped/skill/rushing_tempo1
+[09Oct2024 21:06:31.499] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 330 to biped/skill/rushing_tempo2
+[09Oct2024 21:06:31.500] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 331 to biped/skill/rushing_tempo3
+[09Oct2024 21:06:31.500] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 332 to biped/skill/relentless_combo
+[09Oct2024 21:06:31.500] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 333 to biped/skill/eviscerate_first
+[09Oct2024 21:06:31.500] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 334 to biped/skill/eviscerate_second
+[09Oct2024 21:06:31.500] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 335 to biped/skill/blade_rush_combo1
+[09Oct2024 21:06:31.502] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 336 to biped/skill/blade_rush_combo2
+[09Oct2024 21:06:31.505] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 337 to biped/skill/blade_rush_combo3
+[09Oct2024 21:06:31.505] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 338 to biped/interact/blade_rush_hit
+[09Oct2024 21:06:31.506] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 339 to biped/skill/blade_rush_execute
+[09Oct2024 21:06:31.507] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 340 to biped/skill/blade_rush_failed
+[09Oct2024 21:06:31.508] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 341 to biped/skill/blade_rush_try
+[09Oct2024 21:06:31.513] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 342 to biped/skill/wrathful_lighting
+[09Oct2024 21:06:31.513] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 343 to biped/skill/tsunami
+[09Oct2024 21:06:31.514] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 344 to biped/skill/tsunami_reinforced
+[09Oct2024 21:06:31.515] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 345 to biped/skill/everlasting_allegiance_call
+[09Oct2024 21:06:31.515] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 346 to biped/skill/everlasting_allegiance_catch
+[09Oct2024 21:06:31.515] [modloading-worker-0/INFO] [epicfight/]: Assigned animation id 347 to biped/skill/sharp_stab
+[09Oct2024 21:06:31.887] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[09Oct2024 21:06:31.887] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[09Oct2024 21:06:31.887] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[09Oct2024 21:06:31.895] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[09Oct2024 21:06:36.440] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Oct2024 21:06:39.869] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Kami-01/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23359!/assets/.mcassetsroot' uses unexpected schema
+[09Oct2024 21:06:39.870] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/Kami-01/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23359!/data/.mcassetsroot' uses unexpected schema
+[09Oct2024 21:06:41.296] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:41.385] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:41.604] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:41.682] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:41.817] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:41.861] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:42.437] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
+[09Oct2024 21:06:42.441] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
+[09Oct2024 21:06:42.443] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
+[09Oct2024 21:06:42.444] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
+[09Oct2024 21:06:42.444] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
+[09Oct2024 21:06:42.445] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
+[09Oct2024 21:06:42.541] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:42.589] [main/INFO] [de.teamlapen.werewolves.world.gen.OverworldModifications/]: Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+[09Oct2024 21:06:42.935] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[09Oct2024 21:06:44.500] [main/INFO] [Cucumber Library/]: Cucumber registered 0 recipes in 0 ms
+[09Oct2024 21:06:44.653] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/aluminum_plate recipe (createaddition:rolling/aluminum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.660] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[09Oct2024 21:06:44.733] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.748] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[09Oct2024 21:06:44.781] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.825] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/steel_plate recipe (createaddition:rolling/steel_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.863] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/steel_ingot recipe (createaddition:rolling/steel_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.904] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.906] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/aluminum_ingot recipe (createaddition:rolling/aluminum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.944] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.959] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/lead_plate recipe (createaddition:rolling/lead_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.972] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:44.989] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:45.048] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:45.066] [main/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createaddition:compat/tconstruct/pig_iron_2) has more item inputs (13) than supported (9).
+[09Oct2024 21:06:45.078] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:45.080] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:45.175] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[09Oct2024 21:06:45.231] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 112 recipes
+[09Oct2024 21:06:45.950] [main/INFO] [placebo/]: Registered 0 additional loot tables.
+[09Oct2024 21:06:46.093] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/craft_decorated_pot_using_only_sherds: Invalid criterion trigger: minecraft:recipe_crafted
+[09Oct2024 21:06:46.114] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 5116 recipe advancements
+[09Oct2024 21:06:46.135] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[09Oct2024 21:06:46.143] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[09Oct2024 21:06:46.159] [main/INFO] [bettervillage/]: Immersive Engineering compatibility is enabled for Better Villages.
+[09Oct2024 21:06:46.159] [main/INFO] [Dungeon Crawl/]: Loading data...
+[09Oct2024 21:06:46.406] [main/INFO] [Dungeon Crawl/]: Done.
+[09Oct2024 21:06:46.449] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 24 dynamic modifiers in 1.721577 ms
+[09Oct2024 21:06:46.491] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 114 dynamic modifiers and 0 modifier redirects in 41.001617 ms
+[09Oct2024 21:06:46.498] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 38 modifier tags for 134 modifiers in 6.795842 ms
+[09Oct2024 21:06:46.498] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 49 enchantment to modifier mappings in 0.501634 ms
+[09Oct2024 21:06:46.501] [main/INFO] [tconstruct/]: Loaded 50 spilling fluids in 2.796911 ms
+[09Oct2024 21:06:46.503] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 80 skill nodes
+[09Oct2024 21:06:46.521] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 12 convertibles
+[09Oct2024 21:06:46.523] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[09Oct2024 21:06:46.523] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[09Oct2024 21:06:46.523] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[09Oct2024 21:06:46.523] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[09Oct2024 21:06:46.524] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[09Oct2024 21:06:46.524] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[09Oct2024 21:06:46.524] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[09Oct2024 21:06:46.524] [main/INFO] [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[09Oct2024 21:06:46.524] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[09Oct2024 21:06:46.530] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
+[09Oct2024 21:06:46.530] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
+[09Oct2024 21:06:46.530] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
+[09Oct2024 21:06:46.530] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
+[09Oct2024 21:06:46.530] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+[09Oct2024 21:06:46.531] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
+[09Oct2024 21:06:46.531] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
+[09Oct2024 21:06:46.531] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
+[09Oct2024 21:06:46.531] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
+[09Oct2024 21:06:46.531] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
+[09Oct2024 21:06:46.531] [main/INFO] [hordes/]: loaded horde table hordes:default
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: loaded horde table hordes:drowned
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 20
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 20 and max day 30
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: Loaded entity minecraft:spider as entity.minecraft.spider with weight 15, min day 20 and max day 30
+[09Oct2024 21:06:46.532] [main/INFO] [hordes/]: Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 5, min day 30 and max day 30
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 20, min day 30 and max day 50
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 40 and max day 50
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 40 and max day 50
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 40 and max day 50
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 10, min day 40 and max day 50
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 50
+[09Oct2024 21:06:46.533] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 40 and max day 50
+[09Oct2024 21:06:46.534] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 50 and max day 0
+[09Oct2024 21:06:46.534] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 5, min day 50 and max day 50
+[09Oct2024 21:06:46.534] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 50 and max day 50
+[09Oct2024 21:06:46.534] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 5, min day 40 and max day 40
+[09Oct2024 21:06:46.534] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 50
+[09Oct2024 21:06:46.534] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 5, min day 50 and max day 50
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: Loaded entity minecraft:piglin_brute as entity.minecraft.piglin_brute with weight 10, min day 60 and max day 0
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 15, min day 60 and max day 0
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 5, min day 60 and max day 0
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 60 and max day 0
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 3, min day 60 and max day 0
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: loaded horde table hordes:mixed_mobs
+[09Oct2024 21:06:46.535] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
+[09Oct2024 21:06:46.536] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
+[09Oct2024 21:06:46.537] [main/INFO] [hordes/]: loaded horde table hordes:illagers
+[09Oct2024 21:06:46.537] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 0 and max day 20
+[09Oct2024 21:06:46.537] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 20, min day 0 and max day 30
+[09Oct2024 21:06:46.537] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 20 and max day 50
+[09Oct2024 21:06:46.537] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 20 and max day 0
+[09Oct2024 21:06:46.537] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 40 and max day 0
+[09Oct2024 21:06:46.538] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 40 and max day 0
+[09Oct2024 21:06:46.538] [main/INFO] [hordes/]: loaded horde table hordes:skeletons
+[09Oct2024 21:06:46.538] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+[09Oct2024 21:06:46.538] [main/INFO] [hordes/]: loaded horde table hordes:fallback
+[09Oct2024 21:06:46.542] [main/INFO] [hordes/]: loaded horde script hordes:default
+[09Oct2024 21:06:46.542] [main/INFO] [hordes/]: Loading conversion tables
+[09Oct2024 21:06:46.542] [main/INFO] [hordes/]: Loading conversion table hordes:infection_conversions
+[09Oct2024 21:06:46.544] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
+[09Oct2024 21:06:46.544] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
+[09Oct2024 21:06:46.544] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
+[09Oct2024 21:06:46.544] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
+[09Oct2024 21:06:46.545] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
+[09Oct2024 21:06:46.545] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
+[09Oct2024 21:06:46.545] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
+[09Oct2024 21:06:46.545] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
+[09Oct2024 21:06:46.546] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
+[09Oct2024 21:06:46.546] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
+[09Oct2024 21:06:46.546] [main/INFO] [hordes/]: Loading immunity item list
+[09Oct2024 21:06:46.546] [main/INFO] [hordes/]: Loading immunity item list hordes:immunity_items
+[09Oct2024 21:06:46.546] [main/INFO] [hordes/]: Loaded immunity item minecraft:enchanted_golden_apple with duration 150
+[09Oct2024 21:06:46.547] [main/INFO] [hordes/]: Loading wearables protection list
+[09Oct2024 21:06:46.547] [main/INFO] [hordes/]: Loading wearables protection list hordes:immune_wearables
+[09Oct2024 21:06:46.547] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_boots with modifier 0.95
+[09Oct2024 21:06:46.547] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_leggings with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_helmet with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
+[09Oct2024 21:06:46.548] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_boots with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_leggings with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_helmet with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_boots with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_leggings with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
+[09Oct2024 21:06:46.549] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_helmet with modifier 0.9
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_boots with modifier 0.86
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_boots with modifier 0.82
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
+[09Oct2024 21:06:46.550] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
+[09Oct2024 21:06:46.551] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
+[09Oct2024 21:06:46.551] [main/INFO] [hordes/]: Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
+[09Oct2024 21:06:46.556] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 56 materials in 5.161948 ms
+[09Oct2024 21:06:46.557] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 19 materials in 1.133802 ms
+[09Oct2024 21:06:46.565] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 347 stats loaded for 59 materials in 7.160221 ms
+[09Oct2024 21:06:46.573] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 176 traits loaded for 59 materials in 7.834187 ms
+[09Oct2024 21:06:46.592] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 34 tool definitions in 18.595636 ms
+[09Oct2024 21:06:46.598] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 6.401477 ms
+[09Oct2024 21:06:49.514] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[09Oct2024 21:06:49.776] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[09Oct2024 21:06:49.777] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 0 ms
+[09Oct2024 21:06:49.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[09Oct2024 21:06:49.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Oct2024 21:06:49.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09Oct2024 21:06:49.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Oct2024 21:06:50.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Oct2024 21:06:50.155] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[09Oct2024 21:06:50.245] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09Oct2024 21:06:50.245] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09Oct2024 21:06:50.246] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09Oct2024 21:06:50.246] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09Oct2024 21:06:50.279] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[09Oct2024 21:06:50.281] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[09Oct2024 21:06:50.302] [Server thread/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config lab furnace speed:130.0%, efficiency:100.0%, boost: 24rf/t.
+[09Oct2024 21:06:50.303] [Server thread/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config lab furnace accepted heaters: immersiveengineering:furnace_heater.
+[09Oct2024 21:06:50.307] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-server.toml
+[09Oct2024 21:06:50.310] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config lab furnace speed:130.0%, efficiency:100.0%, boost: 24rf/t.
+[09Oct2024 21:06:50.311] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config lab furnace accepted heaters: immersiveengineering:furnace_heater.
+[09Oct2024 21:06:50.312] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-server.toml
+[09Oct2024 21:06:50.313] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config lab furnace speed:130.0%, efficiency:100.0%, boost: 24rf/t.
+[09Oct2024 21:06:50.314] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config lab furnace accepted heaters: immersiveengineering:furnace_heater.
+[09Oct2024 21:06:50.469] [Server thread/INFO] [FTB Teams/]: loaded team data: 7 known players, 7 teams total
+[09Oct2024 21:06:50.477] [Server thread/INFO] [citadel/]: Added to minecraft:village/plains/houses structure pool
+[09Oct2024 21:06:50.477] [Server thread/INFO] [citadel/]: Added to minecraft:village/desert/houses structure pool
+[09Oct2024 21:06:50.478] [Server thread/INFO] [citadel/]: Added to minecraft:village/savanna/houses structure pool
+[09Oct2024 21:06:50.478] [Server thread/INFO] [citadel/]: Added to minecraft:village/snowy/houses structure pool
+[09Oct2024 21:06:50.479] [Server thread/INFO] [citadel/]: Added to minecraft:village/taiga/houses structure pool
+[09Oct2024 21:06:50.482] [Server thread/INFO] [Framework/]: Loading server configs...
+[09Oct2024 21:06:50.512] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Oct2024 21:06:50.874] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[09Oct2024 21:06:50.926] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.927] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.927] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.928] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.928] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.929] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.929] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.930] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.930] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.931] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.932] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.932] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.933] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.933] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.934] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.934] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.935] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.935] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.936] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:50.937] [Server thread/INFO] [bettervillage/]: Replaced structure of Immersive Engineering mod for compatibility between Better Villages and Immersive Engineering. (Structure weight defined by the mod Immersive Engineering is set to 1, you can change the weight in the configuration of the concerned mod)
+[09Oct2024 21:06:51.542] [Server thread/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on dramaticdoors.mixins.json:OpenDoorsTaskMixin::handler$zja000$injectStartP1 exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09Oct2024 21:06:51.645] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.646] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.646] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.646] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.647] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.647] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.647] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.647] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:51.648] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Oct2024 21:06:52.358] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:06:53.477] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:06:56.089] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.projectile.ThrownTrident from class com.Harbinger.Spore.Sentities.Projectile.ThrownSpear
+[09Oct2024 21:06:56.090] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.projectile.ThrownTrident from class com.Harbinger.Spore.Sentities.Projectile.ThrownSpear
+[09Oct2024 21:06:56.091] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Calamities.Hinderburg from class com.Harbinger.Spore.Sentities.Utility.TumoroidNuke
+[09Oct2024 21:06:56.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Oct2024 21:07:00.101] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.104] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.106] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.110] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.111] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.115] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.116] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.227] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:00.726] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:01.228] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Oct2024 21:07:01.729] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[09Oct2024 21:07:02.226] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[09Oct2024 21:07:02.315] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:02.509] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6284 ms
+[09Oct2024 21:07:02.511] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.254s)! For help, type "help"
+[09Oct2024 21:07:02.619] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Oct2024 21:07:02.712] [Server thread/INFO] [net.ggwpgaming.goldenfood.GoldenFood/]: HELLO from server starting
+[09Oct2024 21:07:02.762] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:auto_save
+[09Oct2024 21:07:02.771] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:resend_request
+[09Oct2024 21:07:02.771] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:restrict_game_type
+[09Oct2024 21:07:02.772] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:restrict_movement
+[09Oct2024 21:07:02.772] [Server thread/INFO] [simplelogin/]: Loading plugin simplelogin:timeout
+[09Oct2024 21:07:02.777] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[09Oct2024 21:07:02.784] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[09Oct2024 21:07:02.845] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[09Oct2024 21:07:02.846] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[09Oct2024 21:07:02.847] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[09Oct2024 21:07:02.848] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[09Oct2024 21:07:04.847] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:05.931] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:06.923] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:07.861] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:09.458] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:12.152] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[09Oct2024 21:07:12.172] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[09Oct2024 21:07:12.173] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[09Oct2024 21:07:12.178] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[09Oct2024 21:07:12.184] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'right-conclusions.gl.at.ply.gg:1520'
+[09Oct2024 21:07:12.194] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1520
+[09Oct2024 21:07:12.341] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_sword, missing knowledge for {1 inferium_sword=1.0}
+[09Oct2024 21:07:12.343] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_hoe, missing knowledge for {1 prudentium_hoe=1.0}
+[09Oct2024 21:07:12.343] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_pickaxe, missing knowledge for {1 imperium_pickaxe=1.0}
+[09Oct2024 21:07:12.344] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_scythe, missing knowledge for {1 inferium_scythe=1.0}
+[09Oct2024 21:07:12.344] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_axe, missing knowledge for {1 tertium_axe=1.0}
+[09Oct2024 21:07:12.344] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_axe, missing knowledge for {1 imperium_axe=1.0}
+[09Oct2024 21:07:12.345] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_chestplate, missing knowledge for {1 imperium_chestplate=1.0}
+[09Oct2024 21:07:12.345] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_helmet, missing knowledge for {1 prudentium_helmet=1.0}
+[09Oct2024 21:07:12.346] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_chestplate, missing knowledge for {1 prudentium_chestplate=1.0}
+[09Oct2024 21:07:12.346] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_sickle, missing knowledge for {1 imperium_sickle=1.0}
+[09Oct2024 21:07:12.346] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_sickle, missing knowledge for {1 diamond_sickle=1.0}
+[09Oct2024 21:07:12.347] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_pickaxe, missing knowledge for {1 diamond_pickaxe=1.0}
+[09Oct2024 21:07:12.347] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_scythe, missing knowledge for {1 tertium_scythe=1.0}
+[09Oct2024 21:07:12.348] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_sword, missing knowledge for {1 prudentium_sword=1.0}
+[09Oct2024 21:07:12.348] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_leggings, missing knowledge for {1 inferium_leggings=1.0}
+[09Oct2024 21:07:12.348] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 warrior_leggings, missing knowledge for {1 leather_leggings=1.0}
+[09Oct2024 21:07:12.349] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_chestplate, missing knowledge for {1 inferium_chestplate=1.0}
+[09Oct2024 21:07:12.349] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_hoe, missing knowledge for {1 tertium_hoe=1.0}
+[09Oct2024 21:07:12.350] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_sickle, missing knowledge for {1 inferium_sickle=1.0}
+[09Oct2024 21:07:12.350] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_boots, missing knowledge for {1 prudentium_boots=1.0}
+[09Oct2024 21:07:12.351] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_helmet, missing knowledge for {1 diamond_helmet=1.0}
+[09Oct2024 21:07:12.351] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_axe, missing knowledge for {1 diamond_axe=1.0}
+[09Oct2024 21:07:12.351] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 divine_helmet, missing knowledge for {1 robe_helmet=1.0}
+[09Oct2024 21:07:12.352] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_boots, missing knowledge for {1 tertium_boots=1.0}
+[09Oct2024 21:07:12.352] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_hoe, missing knowledge for {1 diamond_hoe=1.0}
+[09Oct2024 21:07:12.353] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_chestplate, missing knowledge for {1 diamond_chestplate=1.0}
+[09Oct2024 21:07:12.353] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_boots, missing knowledge for {1 diamond_boots=1.0}
+[09Oct2024 21:07:12.354] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_leggings, missing knowledge for {1 imperium_leggings=1.0}
+[09Oct2024 21:07:12.354] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_sickle, missing knowledge for {1 prudentium_sickle=1.0}
+[09Oct2024 21:07:12.354] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_scythe, missing knowledge for {1 imperium_scythe=1.0}
+[09Oct2024 21:07:12.355] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_boots, missing knowledge for {1 imperium_boots=1.0}
+[09Oct2024 21:07:12.355] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_pickaxe, missing knowledge for {1 prudentium_pickaxe=1.0}
+[09Oct2024 21:07:12.356] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_shovel, missing knowledge for {1 diamond_shovel=1.0}
+[09Oct2024 21:07:12.356] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_sickle, missing knowledge for {1 tertium_sickle=1.0}
+[09Oct2024 21:07:12.356] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_shovel, missing knowledge for {1 prudentium_shovel=1.0}
+[09Oct2024 21:07:12.357] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_helmet, missing knowledge for {1 tertium_helmet=1.0}
+[09Oct2024 21:07:12.357] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 divine_chestplate, missing knowledge for {1 robe_chestplate=1.0}
+[09Oct2024 21:07:12.358] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 wither_leggings, missing knowledge for {1 bone_leggings=1.0}
+[09Oct2024 21:07:12.358] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_helmet, missing knowledge for {1 imperium_helmet=1.0}
+[09Oct2024 21:07:12.358] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 wither_chestplate, missing knowledge for {1 bone_chestplate=1.0}
+[09Oct2024 21:07:12.359] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_leggings, missing knowledge for {1 tertium_leggings=1.0}
+[09Oct2024 21:07:12.359] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 wither_boots, missing knowledge for {1 bone_boots=1.0}
+[09Oct2024 21:07:12.360] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 divine_leggings, missing knowledge for {1 robe_leggings=1.0}
+[09Oct2024 21:07:12.360] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_shovel, missing knowledge for {1 tertium_shovel=1.0}
+[09Oct2024 21:07:12.360] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_pickaxe, missing knowledge for {1 inferium_pickaxe=1.0}
+[09Oct2024 21:07:12.361] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_sword, missing knowledge for {1 imperium_sword=1.0}
+[09Oct2024 21:07:12.361] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_axe, missing knowledge for {1 inferium_axe=1.0}
+[09Oct2024 21:07:12.362] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_boots, missing knowledge for {1 inferium_boots=1.0}
+[09Oct2024 21:07:12.362] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_sword, missing knowledge for {1 tertium_sword=1.0}
+[09Oct2024 21:07:12.363] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 warrior_helmet, missing knowledge for {1 leather_helmet=1.0}
+[09Oct2024 21:07:12.363] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 warrior_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[09Oct2024 21:07:12.363] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_scythe, missing knowledge for {1 diamond_scythe=1.0}
+[09Oct2024 21:07:12.364] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_shovel, missing knowledge for {1 imperium_shovel=1.0}
+[09Oct2024 21:07:12.364] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 supremium_hoe, missing knowledge for {1 imperium_hoe=1.0}
+[09Oct2024 21:07:12.365] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_sword, missing knowledge for {1 diamond_sword=1.0}
+[09Oct2024 21:07:12.365] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_leggings, missing knowledge for {1 prudentium_leggings=1.0}
+[09Oct2024 21:07:12.365] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 warrior_boots, missing knowledge for {1 leather_boots=1.0}
+[09Oct2024 21:07:12.366] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_helmet, missing knowledge for {1 inferium_helmet=1.0}
+[09Oct2024 21:07:12.366] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 divine_boots, missing knowledge for {1 robe_boots=1.0}
+[09Oct2024 21:07:12.367] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_hoe, missing knowledge for {1 inferium_hoe=1.0}
+[09Oct2024 21:07:12.367] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_chestplate, missing knowledge for {1 tertium_chestplate=1.0}
+[09Oct2024 21:07:12.367] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_axe, missing knowledge for {1 prudentium_axe=1.0}
+[09Oct2024 21:07:12.368] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 wither_helmet, missing knowledge for {1 bone_helmet=1.0}
+[09Oct2024 21:07:12.368] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 tertium_scythe, missing knowledge for {1 prudentium_scythe=1.0}
+[09Oct2024 21:07:12.369] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 imperium_pickaxe, missing knowledge for {1 tertium_pickaxe=1.0}
+[09Oct2024 21:07:12.369] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 prudentium_shovel, missing knowledge for {1 inferium_shovel=1.0}
+[09Oct2024 21:07:12.369] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_leggings, missing knowledge for {1 diamond_leggings=1.0}
+[09Oct2024 21:07:12.372] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 180 milliseconds
+[09Oct2024 21:07:16.690] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4caaf65b
+[09Oct2024 21:07:16.785] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: manjiareLH[/127.157.97.112:53545] logged in with entity id 963 at (339.829851045196, 83.5, -1208.699999988079)
+[09Oct2024 21:07:16.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: manjiareLH joined the game
+[09Oct2024 21:07:17.053] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: manjiareLH lost connection: Disconnected
+[09Oct2024 21:07:17.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: manjiareLH left the game
+[09Oct2024 21:07:17.061] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client manjiareLH
+[09Oct2024 21:07:17.145] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[09Oct2024 21:09:59.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[09Oct2024 21:09:59.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Oct2024 21:09:59.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Oct2024 21:09:59.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Oct2024 21:10:00.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Oct2024 21:10:09.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[09Oct2024 21:10:09.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Oct2024 21:10:09.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Oct2024 21:10:09.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Oct2024 21:10:09.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[09Oct2024 21:10:09.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Oct2024 21:10:09.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Oct2024 21:10:09.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Oct2024 21:10:09.696] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
+[09Oct2024 21:10:09.697] [Server thread/INFO] [Framework/]: Unloading server configs...
+[09Oct2024 21:10:09.699] [Server thread/INFO] [simplelogin/]: Shutting down player login handler
+[09Oct2024 21:10:09.699] [Server thread/INFO] [simplelogin/]: Disabling all plugins
+[09Oct2024 21:10:09.700] [Server thread/INFO] [simplelogin/]: Saving all entries
